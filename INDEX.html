@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تحدي الفيزياء</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="question-container" class="hide">
+      <p id="question" class="question"></p>
+      <div id="answer-buttons" class="btn-grid"></div>
+      <button id="next-btn" class="btn hide">التالي</button>
+      <button id="restart-btn" class="btn hide">ابدأ من جديد</button>
+      <p id="score" class="score">النقاط: 0</p>
+      <button id="hint-btn" class="btn">المساعدات (2)</button>
+    </div>
+    <button id="start-btn" class="btn">ابدأ اللعبة</button>
+  </div>
+  
+  <script type="module" src="questions.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
